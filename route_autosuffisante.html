@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Route Autosuffisante</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header, footer {
+      background-color: #222;
+      color: white;
+      padding: 1em;
+      text-align: center;
+    }
+    main {
+      padding: 2em;
+      max-width: 1000px;
+      margin: auto;
+    }
+    section {
+      margin-bottom: 2em;
+      background-color: white;
+      padding: 1em;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #005bbb;
+    }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      background-color: #005bbb;
+      padding: 0.5em;
+    }
+    nav a {
+      color: white;
+      margin: 0 1em;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    ul {
+      line-height: 1.6;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      margin-top: 1em;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Projet : Route Autosuffisante</h1>
+    <p>Lucas, Maxence, Marius, Charles – 1re STI2D</p>
+  </header>
+
+  <nav>
+    <a href="#presentation">Présentation</a>
+    <a href="#cahier">Cahier des charges</a>
+    <a href="#planning">Planning</a>
+    <a href="#solutions">Solutions techniques</a>
+    <a href="#modelisation">Modélisation</a>
+    <a href="#tests">Tests</a>
+    <a href="#normes">Normes</a>
+    <a href="#conclusion">Conclusion</a>
+  </nav>
+
+  <main>
+    <section id="presentation">
+      <h2>Présentation</h2>
+      <p>Ce projet vise à concevoir une route capable de produire, stocker et utiliser de l'énergie de manière autonome, tout en fournissant des informations aux usagers et respectant les normes européennes.</p>
+    </section>
+
+    <section id="cahier">
+      <h2>Cahier des charges</h2>
+      <ul>
+        <li>Produire de l'électricité à partir du trafic routier</li>
+        <li>Éclairer la route en fonction de la luminosité</li>
+        <li>Informer les usagers</li>
+        <li>Respecter un budget de 150 €</li>
+        <li>Stocker l'énergie au moins deux jours</li>
+        <li>Respecter les normes européennes</li>
+      </ul>
+      <img src="Cahierdescharges.png" alt="Tableau Cahier des charges">
+    </section>
+
+    <section id="planning">
+      <h2>Planning</h2>
+      <ul>
+        <li>26/03 : Cahier des charges & recherche de solutions</li>
+        <li>28/03 : Choix de la solution</li>
+        <li>01/04 : Modélisation & programmation</li>
+        <li>04/04 : Réalisation</li>
+        <li>22/04 : Tests & validation</li>
+        <li>07/05 : Présentation finale</li>
+      </ul>
+      <img src="Planning.png" alt="Tableau de planning">
+    </section>
+
+    <section id="solutions">
+      <h2>Solutions techniques</h2>
+      <ul>
+        <li><strong>Production :</strong> photovoltaïque, piézoélectrique, éolienne</li>
+        <li><strong>Éclairage :</strong> LED, OLED, halogène</li>
+        <li><strong>Détection :</strong> capteurs de mouvement, ultrasons, pression</li>
+        <li><strong>Stockage :</strong> supercondensateurs, batteries Li-Ion, hydrogène</li>
+        <li><strong>Informations :</strong> LED au sol, panneaux dynamiques, signal sonore</li>
+      </ul>
+    </section>
+
+    <section id="modelisation">
+      <h2>Modélisation & Réalisation</h2>
+      <p>La maquette a été modélisée avec SolidWorks, puis réalisée avec des outils de prototypage rapide. Les matériaux incluent PLA, câblage, capteurs divers et LEDs.</p>
+    </section>
+
+    <section id="tests">
+      <h2>Tests & validations</h2>
+      <p>Les tests ont validé la détection des usagers, l’activation de l’éclairage et le stockage de l’énergie. Quelques ajustements ont été nécessaires pour améliorer la stabilité électrique.</p>
+	  <video width="640" height="360" controls>
+  <source src="leds.mp4" type="video/mp4">
+  Votre navigateur ne prend pas en charge la balise vidéo.
+</video>
+<video width="640" height="360" controls>
+  <source src="condensateur.mp4" type="video/mp4">
+  Votre navigateur ne prend pas en charge la balise vidéo.
+</video>
+
+    </section>
+
+    <section id="normes">
+      <h2>Normes européennes respectées</h2>
+      <p>Dimensions : 3,5 m pour les routes, 1,4 m pour les trottoirs minimum. Signalisation conforme aux standards européens.</p>
+    </section>
+
+    <section id="conclusion">
+      <h2>Conclusion</h2>
+      <p>Le projet démontre la faisabilité d’une route intelligente et autonome à faible coût, combinant innovation technique et respect des normes.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Route Autosuffisante – Olympiade des Sciences de l’Ingénieur</p>
+  </footer>
+</body>
+</html>
